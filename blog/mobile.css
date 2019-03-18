@@ -1,0 +1,40 @@
+.side-bar {
+    position: relative;
+    float: none;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    float: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.article{
+    width: 100%;
+}
+.article-list {
+    margin: 0;
+}
+
+.side-bar {
+    text-align: center;
+}
+
+.side-nav,
+.tag-list {
+    display: none;
+}
+
+#menu-toggle {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    margin: 0;
+    display: block;
+}
+
+#menu-checked:checked~.side-nav,
+#menu-checked:checked~.tag-list {
+    display: block;
+}
