@@ -13491,7 +13491,7 @@ footer p {
 
 .met-index-body h3 {
   font-size: 24px;
-  margin-top: -50px;
+  margin-top: 0px;
   text-align: center;
   margin-bottom: 0px;
   color: #444;
@@ -15854,9 +15854,12 @@ footer p {
 #pro-02{
   display:inline; 
 }
-.h4-text{
+.h4-text-01{
   margin:30px auto;
   text-align:center;
-
-
+}
+.h4-text-02{
+  margin:10px auto;
+  text-align:center;
+  font-style:oblique
 }
