@@ -4874,7 +4874,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   padding: 8px 10px;
   margin-bottom: 22px;
   list-style: none;
-  background-color: transparent;
+  background-color:inherit;
   border-radius: 3px
 }
 
@@ -39542,6 +39542,7 @@ footer p {
   background: #fff;
   position: relative;
   z-index: 2;
+  margin-top:-50px;
 }
 
 .met-index-body h3 {
@@ -43253,6 +43254,12 @@ footer p {
   .pro-img {
     width: 300px;
     height: 200px;
-   
+
   }
+}
+
+.navbar-fixed-top {
+  filter: alpha(Opacity=80);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
 }
