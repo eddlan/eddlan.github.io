@@ -19,22 +19,43 @@
       content="北京上品嘉禾科技|收银系统|自动送餐设备|自动送餐系统"
     />
     <link rel="stylesheet" href="cache/metinfo.css" />
+    <link rel="stylesheet" href="cache/jquery-1.11.0.js">
+    <link rel="stylesheet" href="cache/tele.css">
   </head>
-
-  <body class="met-navfixed">
+  
+  <body class="met-navfixed-index">
     <!--[if lte IE 8]>
-      <div
-        class="text-center padding-top-50 padding-bottom-50 bg-blue-grey-100"
-      >
-        <p class="browserupgrade font-size-18">
-          你正在使用一个<strong>过时</strong>的浏览器。请<a
-            href="#"
-            target="_blank"
-            >升级您的浏览器</a
-          >，以提高您的体验。
-        </p>
-      </div>
-    <![endif]-->
+    <div class="text-center padding-top-50 padding-bottom-50 bg-blue-grey-100">
+    <p class="browserupgrade font-size-18">你正在使用一个<strong>过时</strong>的浏览器。请<a href="#" target="_blank">升级您的浏览器</a>，以提高您的体验。</p>
+    </div>
+  <![endif]-->
+  <div class="side">
+      <ul>
+          <li class="shangqiao">
+              <a href="tencent://message/?uin=1524688558&Site=qq&Menu=yes" rel="nofollow">
+                  <div><i class="bgs1"></i>QQ咨询</div>
+              </a>
+          </li>
+          <li class="sideewm"><i class="bgs3"></i>官方微信
+              <div class="ewBox son"></div>
+          </li>
+          <li class="sideetel"><i class="bgs4"></i>联系电话
+              <div class="telBox son">
+                  <dd class="bgs1"><span>座机</span>400-6166-080</dd>
+                  <dd class="bgs2"><span>手机</span>18911005215</dd>
+              </div>
+          </li>
+          <li class="sidetop" onClick="goTop()"><i class="bgs6"></i>返回顶部</li>
+      </ul>
+  </div>
+   
+  <script>
+      function goTop() {
+          $('html,body').animate({
+              scrollTop: 0
+          }, 500)
+      }
+  </script>
     <nav class="navbar navbar-default met-nav navbar-fixed-top " role="navigation">
       <div class="container">
           <div class="row">
